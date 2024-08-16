@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- google font end -->
+
+    <!-- style sheet -->
+     <link rel="stylesheet" href="css/home.css">
+     <link rel="stylesheet" href="css/edite.css">
+     <link rel="stylesheet" href="css/blog.css">
+    <!-- style sheet end -->
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <img src="img/logo.png" alt="Logo">
+        <ul class="links-container">
+            <li class="link-item">
+                <a href="/" class="link">Home</a>
+            </li>
+            <li class="link-item">
+                <a href="/edit" class="link">Editor</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- banner section -->
+    <div class="banner"></div>
+
+    <div class="blog">
+        <h1 class="title"></h1>
+        <p class="published"><span>published at - </span></p>
+        <div class="article">
+            
+        </div>
+    </div>
+
+    <h1 class="sub-heading">Read more</h1>
+    <!-- banner section end -->
+
+    <!-- blog section -->
+     <section class="blogs-section">
+        <!-- <div class="blog-card">
+            <img src="img/header.png" class="blog-img" alt="blog">
+            <h1 class="blog-title">Lorem ipsum dolor sit amet consectetur.</h1>
+            <p class="blog-overview">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus error facere veniam est quidem expedita, laborum, possimus officia inventore soluta doloribus fugit accusantium sed voluptates corrupti numquam nihil? Dolor, libero?
+            </p>
+            <a href="/" class="btn dark">Read more</a>
+        </div> -->
+     </section>
+    <!-- blog section end -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+     
+    <script type="module" src="js/utiles.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>

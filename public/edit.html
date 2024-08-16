@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- google font end -->
+
+    <!-- style sheet -->
+     <link rel="stylesheet" href="css/home.css">
+     <link rel="stylesheet" href="css/edite.css">
+    <!-- style sheet end -->
+</head>
+<body>
+    <!-- navbar -->
+    <!-- <nav class="navbar"> 
+        <img src="img/logo.png" alt="Logo">
+        <ul class="links-container">
+            <li class="link-item">
+                <a href="/" class="link">Home</a>
+            </li>
+            <li class="link-item">
+                <a href="\edit.html" class="link">Editor</a>
+            </li>
+        </ul>
+    </nav> -->
+    <!-- navbar end -->
+
+    <!-- editor banner -->
+     <div class="banner">
+        <input type="file" accept="image/*" id="banner-uplode" hidden>
+        <label for="banner-uplode" class="banner-upload-btn">
+            <img src="img/upload.png" alt="upload banner">
+        </label>
+     </div>
+    <!-- editor banner end -->
+
+    <!-- blog titerl -->
+     <div class="blog">
+        <textarea type="text" class="title" placeholder="blog Title..."></textarea>
+        <textarea type="text" class="article" placeholder="Start writing here..."></textarea>
+     </div>
+    <!-- blog titerl end -->
+
+    <!-- blog options -->
+     <div class="blog-options">
+        <button class="btn dark publish-btn">Publish</button>
+        <input type="file" accept="image/*" id="image-upload" hidden>
+        <label for="image-upload" class="btn grey upload-btn">Upload Image</label>
+     </div>
+    <!-- blog options end -->
+
+    <!-- java script -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+     
+    <script type="module" src="js/utiles.js"></script>
+     <script src="js/edite.js"></script>
+    <!-- java script end -->
+</body>
+</html>
